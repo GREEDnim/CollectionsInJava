@@ -22,6 +22,7 @@ public class Main {
         while(iterator.hasNext()) System.out.println(iterator.next());
 
         //or using foreach which does the same thing. 
-        // for( Integer ele:list) System.out.println(ele);
+        
+        for( Integer ele:list) System.out.println(ele);
     }
 }

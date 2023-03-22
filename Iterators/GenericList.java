@@ -31,7 +31,6 @@ public class GenericList<T> implements Iterable {
     // should implement hasNext() and next();
     private class GenericListIterator implements Iterator<T>
     {
-
         private int index=0;
         @Override
         public boolean hasNext() {
